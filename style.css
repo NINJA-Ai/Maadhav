@@ -88,3 +88,7 @@ img {
 img:hover {
     transform: scale(0.9);
 }
+
+h3 {
+    color: whitesmoke;
+}
