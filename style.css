@@ -1,94 +1,25 @@
 body {
-    background: linear-gradient(#36ffc9 0%, #b5ff36 100%);
-    text-align: center;
-    background-repeat: no-repeat;
-    padding: 150px
+  text-align: center;
+  background-color: #f0e8c5;
 }
 
 h1 {
-    text-shadow: 2px 2px #F8BBDO;
-    font-size: 40px;
-    text-align: center;
+    font-size: 32px;
 }
 
-img {
-    border-radius: 30%;
-    width: 300px;
+div {
+    margin-top: 15px;
 }
 
-#welcome {
-    background: linear-gradient(#bbf7a1 0%, #400202 100%);
-    display: table;
-    width: 100%;
-    height: 100%;
-    z-index: 9;
+.image-section {
+    display: flex;
+    justify-content: center;
 }
 
-. menu {
-    list-style: none;
-    font-family: sans-serif;
-    position: absolute;
-    top: 10px;
-    right: 30px;
-    z-index: 10;
-    cursor: pointer;
-    `
-}
-
-.kie {
-    float: right;
-    color: chartreuse;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-family: monospace;
-    font-size: 20px;
-}
-
-.kie:hover {
-    background-color: #96fa00;
-
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-#Contact {
-    background-color: blueviolet;
-}
-
-#MyWork {
-    background-color: yellow;
-}
-
-#MyInspiration {
-    background-color: whitesmoke;
-}
-
-#Books {
-    background-color: red;
-}
-
-#About {
-    background-color: #00a1f7;
-    font-size: 20px;
-}
-
-#Welcome {
-    background-color: #9200fa;
-}
-
-img {
-    transition: transform .2s;
-    border: 10px solid #AAAAAA;
-}
-
-img:hover {
-    transform: scale(0.9);
-}
-
-h3 {
-    color: whitesmoke;
+.section-style {
+    width: 500px;
+    height: 500px;
+    margin-right: 15px;
+    margin-left: 15px
+    background-color: white;
 }
